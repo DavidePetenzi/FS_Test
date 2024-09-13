@@ -126,5 +126,5 @@ let score = '100';
 score = Number(score); // string to number
 score = String(score); // number to string
 score = Boolean('0');  // string to boolean
-console.log(typeof score); // type of variable
+console.log(typeof score); // type of variable.
 
