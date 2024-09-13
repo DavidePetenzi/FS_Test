@@ -128,3 +128,41 @@ score = String(score); // number to string
 score = Boolean('0');  // string to boolean
 console.log(typeof score); // type of variable.
 
+
+// Control flow
+
+for(let i = 0; i < 5; i++){
+    console.log('in loop:', i);
+}
+console.log('loop finished');
+
+
+const names = ['shawn', 'mario', 'luigi'];
+
+for(let i = 0; i < names.length; i++){
+    console.log(i);
+    console.log(names[i]);
+    let html = `<div>${names[i]}</div>`;
+    console.log(html);
+}
+
+
+let i = 0;
+while(i < 5){
+    console.log('in while loop: ', i);
+    i++;
+}
+
+i = 0;
+while(i < names.length){
+    console.log(names[i]);
+    i++;
+}
+
+let something = 0;
+if(something > 0 && something < 4){
+    // do something
+} else {
+    // do other
+}
+
